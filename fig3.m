@@ -359,7 +359,7 @@ bc=@(k) branch_cut(delta,k,bb,sb,c);
    
 B_bg=1-1/(1+sb*zeta(c-1)/bb);
 B_df=1-1/(1+bl*sr*zeta(c-1)/((1+sr*zeta(c-1))*(1+sl*zeta(c-1))));
-B_nb=B_bg+(bc(dis)*br*sb*(bl-(1+sl*zeta(c)))+bc(dis-1)*(sr-sb)*(1+sr*zeta(c)))/(sb*bl*sr*zeta(c-1)+sb*(1+sl*zeta(c))*(1+sr*zeta(c)));
+B_nb=B_bg+(bc(dis)*br*sb*(bl-(1+sl*zeta(c)))+bc(dis-1)*(sr-sb)*(1+sl*zeta(c)))/(sb*bl*sr*zeta(c-1)+sb*(1+sl*zeta(c))*(1+sr*zeta(c)));
 
 plot(t_star, B_bg,'o','MarkerEdgeColor','#0072BD','MarkerFaceColor','#0072BD','MarkerSize',7);
 plot(t_star, B_df,'o','MarkerEdgeColor','#D95319','MarkerFaceColor','#D95319','MarkerSize',7);
