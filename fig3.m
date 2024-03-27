@@ -2,7 +2,7 @@
 % Melting curves for Homo-DNA with a defect 
 % For background, defect and neighboring basepairs
 % For c<1, 1<c<2 and c>2
-% Background: A, defect: C
+% Background: A, defect: G
 %
 % Writes results in txt files, that are then opened to plot
 % Comment/uncomment accordingly
